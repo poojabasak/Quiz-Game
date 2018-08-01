@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="match_parent"
+    android:background="@drawable/pp"
+    android:layout_height="match_parent"
+    tools:context="com.example.pooja.kbc.Final">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/kbc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="294dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="214dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="Thanks for Playing KBC"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:gravity="center"
+        android:text="YOUR TOTAL SCORE"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/actionModeSplitBackground"
+        android:ems="10"
+        android:hint="SCORE"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/editText5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+
+</RelativeLayout>

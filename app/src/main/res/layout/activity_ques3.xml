@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    tools:context="com.example.pooja.kbc.ques3">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/kbc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="294dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="208dp"
+        android:text="Bahubali festivalis celebrated in"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="78dp"
+        android:text="Jainism"
+        android:layout_alignTop="@+id/button14"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="ISLAM"
+        android:layout_alignBaseline="@+id/button15"
+        android:layout_alignBottom="@+id/button15"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hinduism"
+        android:layout_below="@+id/button15"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/button15" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button17"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignStart="@+id/button16"
+        android:text="Buddhism" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:ems="10"
+        android:hint="Score:"
+        android:textSize="25sp"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

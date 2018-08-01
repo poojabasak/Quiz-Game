@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    tools:context="com.example.pooja.kbc.ques5">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/kbc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="294dp" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="210dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:text="Meenakshi Temple is situated in which place"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="Madurai"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignTop="@+id/button23"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="32dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignTop="@+id/button24"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="31dp"
+        android:text="Puri" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="Chennai"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/button24"
+        android:layout_alignStart="@+id/button24" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tamil Nadu"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignBaseline="@+id/button26"
+        android:layout_alignBottom="@+id/button26"
+        android:layout_alignStart="@+id/button25" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Score:"
+        android:textSize="25sp"
+        android:background="?attr/actionModeSplitBackground"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

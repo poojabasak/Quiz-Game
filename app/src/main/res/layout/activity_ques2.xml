@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pp"
+    tools:context="com.example.pooja.kbc.ques2">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/kbc"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="294dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="212dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="WORLD HEALTH DAY IS OBSERVED ON"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageView1"
+        android:layout_alignTop="@+id/button8"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="78dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="APRIL 7"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button9"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_alignEnd="@+id/imageView1"
+        android:layout_marginEnd="12dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="MARCH 6"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button9"
+        android:layout_below="@+id/button9"
+        android:layout_marginTop="10dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="March 15"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button10"
+        android:layout_below="@+id/button10"
+        android:layout_marginTop="10dp"
+        android:background="?attr/actionModeSplitBackground"
+        android:text="APRIL 28"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="Score:"
+        android:textSize="25sp"
+        android:background="?attr/actionModeSplitBackground"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
